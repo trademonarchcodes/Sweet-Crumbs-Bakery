@@ -22,3 +22,5 @@ Confirm the bakery's real product list, prices, exact street address, and approv
 
 ## Deployment
 Deploy with Cloudflare Pages using the `main` branch and repository root as the build output directory. No build command is required.
+
+Cloudflare Pages project: https://sweet-crumbs-bakery.pages.dev
