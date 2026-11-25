@@ -32,3 +32,11 @@
 .brand-logo{width:72px;height:72px;flex:0 0 72px;border-radius:50%;object-fit:contain;object-position:center;background:#35190f;border:2px solid #d6a65b;padding:3px;box-shadow:0 3px 12px #35190f1c;}
 .footer-brand .brand-logo{width:68px;height:68px;flex-basis:68px;}
 @media(max-width:680px){.brand-logo{width:60px;height:60px;flex-basis:60px}.footer-brand .brand-logo{width:60px;height:60px;flex-basis:60px}}
+
+/* Mascot layout refinements: keep every character fully visible and balanced */
+.hero-art{min-width:0;}
+.hero-chef{width:100%;max-width:100%;height:100%;max-height:460px;object-fit:contain;object-position:center bottom;}
+.chef-image-wrap{min-width:0;overflow:visible;}
+.chef-image-wrap img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center bottom;}
+.order-banner>img{width:100%;max-width:100%;height:100%;max-height:390px;object-fit:contain;object-position:center bottom;}
+@media(max-width:680px){.hero-chef{width:100%;max-height:350px;}.chef-image-wrap{height:320px;}.chef-image-wrap img{height:100%;width:100%;}.order-banner>img{width:100%;max-height:280px;}}
